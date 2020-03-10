@@ -1,0 +1,886 @@
+{
+    "id": "continental-gt-home",
+    "title": "Test Page",
+    "style":{
+        "backgroundColor": "white"
+    },
+    "widgets": [
+            {
+                "type": "slider",
+                "title": "Slider title #65041",
+                "data": [
+                    {
+                        "image": "https://www.royalenfield.com/content/dam/re-platform-images/TB-500/Colours/Marine/tb-500%20830-x-600px.png",
+                        "title": "First",
+                        "inline_text": {
+                            "text": " Marine ",
+                            "style": {
+                                "textAlign": "center",
+                                "color":"white",
+                                "fontWeight": "bold"
+                            }
+                        },
+                        "dimensions":{
+                            "width":830,
+                            "height":600
+                        },
+                        "action": {
+                            "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 37
+                            }
+                        }
+                    },
+                    {
+                        "image": "https://www.royalenfield.com/content/dam/re-platform-images/TB-500/Colours/Stone/TB-500-black-iii.png",
+                        "title": "third",
+                         "inline_text": {
+                            "text": " Stone ",
+                            "style": {
+                                "textAlign": "center",
+                                "color":"white",
+                                "fontWeight": "bold"
+                            }
+                        },
+                        "dimensions":{
+                            "width":830,
+                            "height":600
+                        },
+                        "action": {
+                            "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 35
+                            }
+                        }
+                    },
+                    {
+                        "image": "https://www.royalenfield.com/content/dam/re-platform-images/TB-500/Colours/Flicker/TB-500-flicker-ii.png",
+                        "title": "third",
+                        "inline_text": {
+                            "text": " Flicker ",
+                            "style": {
+                                "textAlign": "center",
+                                "color":"white",
+                                "fontWeight": "bold"
+                            }
+                        },
+                        "dimensions":{
+                            "width":830,
+                            "height":600
+                        },
+                        "action": {
+                            "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 35
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "text",
+                "text": "Thunderbird 500",
+                "style":{
+                    "fontFamily": "Lato-Regular",
+                    "color": "black",
+                    "fontWeight": "bold",
+                    "fontSize":20,
+                    "textAlign": "center",
+                    "marginLeft": 10,
+                    "marginVertical": 10
+                },
+                "action":{
+                    "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 34
+                            }
+                }
+            },
+            {
+                "type": "text",
+                "text": "₹ 1.91 - 2.07 lakh Ex-showroom Price, Delhi",
+                "style":{
+                    "fontFamily": "Lato-Regular",
+                    "fontWeight": "bold",
+                    "fontSize":15,
+                    "textAlign": "center",
+                    "color":"#99999c",
+                    "marginLeft": 10,
+                    "marginTop": 10,
+                    "marginBottom": 40
+                },
+                "action":{
+                    "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 34
+                            }
+                }
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-around",
+                    "alignItems": "center"
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "ENGINE",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color": "black",
+                            "fontWeight": "bold",
+                            "fontSize":14,
+                            "marginLeft": 10,
+                            "marginTop":10,
+                            "marginBottom": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "marginBottom": 20
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "Single cylinder, 4 stroke, spark ignition, air-cooled, fuel injection",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":8,
+                            "marginLeft": 10,
+                            "marginTop":1
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "CAPACITY",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "499cc",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "MAX POWER",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "27.2 bhp @ 5250 rpm",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginBottom": 15
+    
+    
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "MAX TORQUE",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "41.3 Nm @ 4000 rpm",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+           
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginBottom": 15
+    
+    
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "GEARBOX",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "5 speed",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginBottom": 15
+    
+    
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "EXHAUST",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "Single Exhaust",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-around",
+                    "alignItems": "center"
+                },
+                "data": [
+                    {
+                        "type": "text",
+                        "text": "CHASSIS",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color": "black",
+                            "fontWeight": "bold",
+                            "fontSize":14,
+                            "marginLeft": 10,
+                            "marginTop":10,
+                            "marginBottom": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "marginBottom": 20
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "Single downtube, using engine as stressed member",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":8,
+                            "marginLeft": 10,
+                            "marginTop":1
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "FRONT TYRES",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "90/90 - 19",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "REAR TYRES",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "120/80 - 18",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "FRONT SUSPENSION",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "Telescopic, 41 mm forks, 130 mm travel",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "REAR SUSPENSION",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "Twin gas charged shock absorbers with \n5-step adjustable preload, 80 mm travel",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "FRONT BRAKES",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "280mm Disc, 2-Piston caliper",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "REAR BRAKES",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                        
+                    },
+                    {
+                        "type": "text",
+                        "text": "240mm Disc, Single piston caliper",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                       
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "ABS",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                        
+                    },
+                    {
+                        "type": "text",
+                        "text": "Dual channel",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                       
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-around",
+                    "alignItems": "center"
+                },
+                "data": [
+                    {
+                        "type": "text",
+                        "text": "DIMENSIONS AND WEIGHTS",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color": "black",
+                            "fontWeight": "bold",
+                            "fontSize":14,
+                            "marginLeft": 10,
+                            "marginTop":10,
+                            "marginBottom": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "marginBottom": 20
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "KERB WEIGHT 199 kgs (with 90% fuel & oil)",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":8,
+                            "marginLeft": 10,
+                            "marginTop":1
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "GROUND CLEARANCE",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "135 mm",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "KERB WEIGHT",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "199 kgs (with 90% fuel & oil)",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "TANK CAPACITY",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "20 ltr",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            }
+            
+    ]
+}

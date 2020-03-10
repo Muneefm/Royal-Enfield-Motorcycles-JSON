@@ -1,0 +1,139 @@
+{
+    "id": "nRHaEe",
+    "title": "Test Page",
+    "widgets": [
+        {
+            "type": "banner",
+            "data": [
+                {
+                    "image": "https://i0.wp.com/tollfreetraveller.com/wp-content/uploads/2019/08/20190809_175754_0000.png?w=700",
+                    "title": "Test Page",
+                    "inline_text": {
+                        "text": " More Colourful and More Affordable: Bullet 350 X and 350 ES X Launched by Royal Enfield ",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "fontSize": 15,
+                            "textAlign": "center",
+                            "color":"white",
+                            "fontWeight": "bold",
+                            "marginVertical": 10
+                        }
+                    },
+                    "dimensions":{
+                        "width":3680,
+                        "height":2360
+                    }
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "text": "August 10, 2019 / tollfreetraveller.com",
+            "action": {
+                "type": "OPEN_URL",
+                "params": {
+                    "url": "http://tollfreetraveller.com/more-colourful-and-more-affordable-bullet-350-x-and-350-es-x-launched-by-royal-enfield/"
+                }
+            },
+            "style":{
+                "fontFamily": "Roboto",
+                "color": "black",
+                "fontWeight": "bold",
+                "fontSize":13,
+                "marginLeft": 10,
+                "marginVertical": 10
+            }
+           
+        },
+        {
+            "type": "text",
+            "text": "Royal Enfield has launched the Bullet 350 X and Bullet 350 X ES (electric start) in India at prices of INR 1,12,000/- and INR 1,26,692/-, respectively (both prices ex-showroom Chennai).. \n Both these bikes are nearly 10,000 Rupees cheaper than the corresponding standard Bullet 350 variants. In fact, the Bullet 350 X is now the cheapest motorcycle from the Royal Enfield stable.",
+            "style":{
+                "fontFamily": "Lato-Light",
+                "color":"#99999c",
+                "fontSize":15,
+                "marginHorizontal": 10,
+                "marginVertical": 10
+            }
+        },
+        {
+            "type": "text",
+            "text": "Eye candy",
+            "style":{
+                "fontFamily": "Lato-Light",
+                "color":"black",
+                "fontWeight": "bold",
+                "fontSize":15,
+                "marginHorizontal": 10
+            }
+        },
+        {
+            "type": "text",
+            "text": "The “Bullet X” bikes are essentially stylised variants of the legendary Bullet 350 (often also referred to as the “Standard”). Noticeably missing are the iconic hand painted pinstripes and metal badging on the fuel tank. Instead, similar to what we’ve seen Royal Enfield do before with other models (Classic and Thunderbird), the Bullet X variants feature coloured fuel tanks and simple brand name stickers (the pattern varies between the base variant and the ES version).",
+            "style":{
+                "fontFamily": "Lato-Light",
+                "color":"#99999c",
+                "fontSize":15,
+                "marginHorizontal": 10,
+                "marginVertical": 10
+            }
+        },
+       
+        {
+            "type": "text",
+            "text": "The Bullet X is available in 3 colours – Bullet Silver (similar to Gunmetal Grey), Sapphire Blue (slightly darker than the Redditch Blue) and Onyx Black (a glossy black). The colours available in the electric start variant are – Regal Red, Royal Blue (close to the Thunderbird Marine Blue) and a Jet Black..\n",
+            "style":{
+                "fontFamily": "Lato-Light",
+                "color":"#99999c",
+                "fontSize":15,
+                "marginHorizontal": 10,
+                "marginVertical": 10
+            }
+        },
+        {
+            "type": "text",
+            "text": "The addition of colour continues to other parts of the bikes as well. Several of the shiny chrome bits (mirrors, wheel rims, indicators etc.) have been substituted by all-black parts, with some subtle variations between the kick start and electric start versions. While the engine has been fully blacked out on the ES X, the Bullet 350 X retains a few silver highlights. The chrome finish of the silencer pipe, exhaust as well as the headlight rings has been retained on both versions.",
+            "style":{
+                "fontFamily": "Lato-Light",
+                "color":"#99999c",
+                "fontSize":15,
+                "marginHorizontal": 10,
+                "marginVertical": 10
+            }
+        },
+        {
+            "type": "text",
+            "text": "Both versions of the Bullet X use the same BS4 certified 346cc engine as the standard 350 – as of now, no “X” version of the Bullet 500 has been launched. All other mechanical specifications also remain the same as their respective more expensive 350 cc counterparts. There is no change to engine performance, power or any other mechanical components. Unlike the Thunderbird X range that sports alloy wheels and tubeless tyres, these bikes continue to run on spoked wheels and tyres with tubes.",
+            "style":{
+                "fontFamily": "Lato-Light",
+                "color":"#99999c",
+                "fontSize":15,
+                "marginHorizontal": 10,
+                "marginVertical": 10
+            }
+        },
+        {
+            "type": "text",
+            "text": "As suggested by the names, the primary difference between the Bullet X and the Bullet ES X is the presence of an electronic starter (which is what “ES” stands for). As mentioned previously, there also some subtle differences in styling and badges used between the variants. \n",
+            "style":{
+                "fontFamily": "Lato-Light",
+                "color":"#99999c",
+                "fontSize":15,
+                "marginHorizontal": 10,
+                "marginVertical": 10
+            }
+        },
+        {
+            "type": "text",
+            "text": "In the backdrop of a much-talked about slowdown in sales in the automotive and bike sector, there has been an expectation that brands will focus on creating more affordable variants of their product offerings. This launch seems to be one of the first examples of implementation of that idea by Royal Enfield. Given the success they’ve previously tasted with such stylised variants of their motorcycles (read: the “Redditch” series in the Classic lineup  and the X series of the Thunderbirds) it’s possible that these new colour options, combined with the reduced asking price, might lure new customers to begin their journey with what is undeniably an iconic motorcycle. .",
+            "style":{
+                "fontFamily": "Lato-Light",
+                "color":"#99999c",
+                "fontSize":15,
+                "marginHorizontal": 10,
+                "marginVertical": 10
+            }
+        }
+    ]
+}
+    

@@ -1,0 +1,93 @@
+{
+    "id": "bullet-home",
+    "title": "Test Page",
+    "style":{
+        "backgroundColor": "white"
+    },
+    "widgets": [
+        {
+            "type": "banner",
+            "title": "Banner title #70621",
+            "data": [
+                {
+                    "image": "https://www.royalenfield.com//content/dam/re-platform-images/new/bullestes/features/desktop/design.jpg",
+                    "title": "Test Page",
+                    "dimensions":{
+                        "width":1920,
+                        "height":750
+                    },
+                    "action": {
+                        "type": "banner",
+                        "params": {
+                            "id": 37
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "grid",
+            "title": "Royal Enfield Bullet Motorcycles",
+            "itemStyle": {
+                "spacing": 0
+            },
+            "data": [
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/intermediatePages/Bullet/bullet-500.jpg",
+                    "title": "Bullet 500",
+                    "dimensions":{
+                        "width":640,
+                        "height":450
+                    },
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "bt-5"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/intermediatePages/Bullet/bullet--350.jpg",
+                    "title": "Bullet 350",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "bt-3"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/intermediatePages/Bullet/Bullet-ES.jpg",
+                    "title": "Bullet 350 ES",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "bt-3-es"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/home/motorcycles/motorcycleFlyout/bullet-trials-500.png",
+                    "title": "Bullet Trials Works Replica 500",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "bt-5-trial"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/home/motorcycles/motorcycleFlyout/bullet-trials-350.png",
+                    "title": "Bullet Trials Works Replica 350",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "bt-3-trial"
+                        }
+                    }
+                }
+            ]
+        }
+        
+    ]
+}

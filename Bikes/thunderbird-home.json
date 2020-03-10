@@ -1,0 +1,99 @@
+{
+    "id": "thunderbird-home",
+    "title": "Test Page",
+    "style":{
+        "backgroundColor": "white"
+    },
+    "widgets": [
+        {
+            "type": "banner",
+            "title": "Banner title #70621",
+            "data": [
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/home/motorcycles/specifications/desotop/Thunderbird-500.jpg",
+                    "title": "Test Page",
+                    "dimensions":{
+                        "width":1920,
+                        "height":750
+                    },
+                    "action": {
+                        "type": "banner",
+                        "params": {
+                            "id": 37
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "grid",
+            "title": "Royal Enfield Thunderbird Motorcycles",
+            "data": [
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/intermediatePages/Thunderbird/Thunderbird-500.jpg",
+                    "title": "Thunderbird 500",
+                    "dimensions":{
+                        "width":640,
+                        "height":450
+                    },
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "tb-5"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/intermediatePages/Thunderbird/TBX-500.jpg",
+                    "title": "Thunderbird 500 X",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "tb-5-x"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/intermediatePages/Thunderbird/Thunderbird-350.jpg",
+                    "title": "Thunderbird 350",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "tb-3"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/intermediatePages/Thunderbird/TBX-350.jpg",
+                    "title": "Thunderbird 350 X",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "tb-3-x"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "banner",
+            "title": "Banner title #70621",
+            "data": [
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/TB-500/Features/Desktop/stance.jpg",
+                    "title": "Test Page",
+                    "dimensions":{
+                        "width":1920,
+                        "height":750
+                    },
+                    "action": {
+                        "type": "banner",
+                        "params": {
+                            "id": 37
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

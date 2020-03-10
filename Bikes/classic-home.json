@@ -1,0 +1,142 @@
+{
+    "id": "classic-home",
+    "title": "Test Page",
+    "style":{
+        "backgroundColor": "white"
+    },
+    "widgets": [
+        {
+            "type": "banner",
+            "title": "Banner title #70621",
+            "data": [
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/home/motorcycles/5-Classic.jpg",
+                    "title": "Test Page",
+                    "dimensions":{
+                        "width":1920,
+                        "height":750
+                    },
+                    "action": {
+                        "type": "banner",
+                        "params": {
+                            "id": 37
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "grid",
+            "title": "Royal Enfield Classic Motorcycles",
+            "itemStyle": {
+                "spacing": 0
+            },
+            "data": [
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/VariantPage/pegasus.jpg",
+                    "title": "Classic 500 pegasus",
+                    "dimensions":{
+                        "width":640,
+                        "height":450
+                    },
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-5-p"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/VariantPage/stealth-black.jpg",
+                    "title": "Classic 500 Stealth black",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-5-b"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/VariantPage/squadron-blue.jpg",
+                    "title": "Classic 500 Squadron Blue",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-5-sq"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/VariantPage/classic-desert--640-x-450px.jpg",
+                    "title": "Classic 500 Desert Storm",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-5-desert"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/VariantPage/crome.jpg",
+                    "title": "Classic 500 Chrome",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-5-chrome"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/VariantPage/classic-black-500--640-x-450px.jpg",
+                    "title": "Classic 500",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-5"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/VariantPage/gungrey.jpg",
+                    "title": "Classic 350 Gunmetal Grey",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-3-gun"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/VariantPage/redditch.jpg",
+                    "title": "Classic 350 Redditch",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-3-redditch"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/VariantPage/black-ii.jpg",
+                    "title": "Classic 350",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-3"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/CL-350-Signals/flyouts/signals-flyout.jpg",
+                    "title": "Classic 350 Signals",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "c-3-signal"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

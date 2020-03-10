@@ -1,0 +1,126 @@
+{
+    "id": "home",
+    "title": "Test Page",
+    "style":{
+        "backgroundColor": "white"
+    },
+    "widgets": [
+        {
+            "type": "banner",
+            "title": "Banner title #70621",
+            "data": [
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/home/now/Now-Lead-D.jpg",
+                    "title": "Test Page",
+                    "dimensions":{
+                        "width":1920,
+                        "height":750
+                    },
+                    "action": {
+                        "type": "banner",
+                        "params": {
+                            "id": 37
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "post",
+            "template":"post-list-1",
+            "title": "More Colourful and More Affordable: Bullet 350 X and 350 ES X Launched by Royal Enfield by Tollfreetraveller",
+            "data": [
+                {
+                    "view": "simple",
+                    "template":"template-1",
+                    "imageOrientation": "left",
+                    "image": "https://i2.wp.com/tollfreetraveller.com/wp-content/uploads/2019/08/IMG_20190809_160142_Bokeh-01-1.jpeg?resize=824%2C568",
+                    "content": "Royal Enfield has launched the Bullet 350 X and Bullet 350 X ES (electric start) in India at prices of INR 1,12,000/- and INR 1,26,692/-, respectively (both prices ex-showroom Chennai).",
+                    "dimensions":{
+                        "width":1200,
+                        "height":628
+                    },
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "bullet-x-post"
+                        }
+                    },
+                    "author": "August 10, 2019 / tollfreetraveller.com"
+                }
+            ]
+        },
+        {
+            "type": "grid",
+            "title": "Royal Enfield Motorcycles",
+            "data": [
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/interceptor/gallery/new-gallery/gallery-03.jpg",
+                    "title": "Interceptor",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "interceptor"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/gt/gallery/gallery-02.jpg",
+                    "title": "Continental GT",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "gt"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/himalayan/gallery/h-gallery-2.png",
+                    "title": "Himalayan",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "himalayan"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/TB-500-X/gallery/image1(1).jpg",
+                    "title": "Thunderbird",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "thunderbird-home"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/pegasus/gallery/_DSR9796.JPG",
+                    "title": "Classic",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "classic"
+                        }
+                    }
+                },
+                {
+                    "image": "https://www.royalenfield.com/content/dam/re-platform-images/bullet500/gallery/7U4A6621.jpg",
+                    "title": "Bullet",
+                    "action": {
+                        "type": "OPEN_IN_APP_PAGE",
+                        "params": {
+                            "id": "bullet"
+                        }
+                    }
+                }
+                
+            ]
+        },
+        {
+            "type": "admob",
+            "unitId":"ca-app-pub-7269223551241818/2520951202",
+            "size":"MEDIUM_RECTANGLE"
+        }
+    ]
+}

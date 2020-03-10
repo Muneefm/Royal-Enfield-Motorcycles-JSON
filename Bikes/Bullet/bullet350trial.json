@@ -1,0 +1,843 @@
+{
+    "id": "bullet-trial-350",
+    "title": "Test Page",
+    "style":{
+        "backgroundColor": "white"
+    },
+    "widgets": [
+        
+            {
+                "type": "slider",
+                "title": "Slider title #65041",
+                "data": [
+                    {
+                        "image": "https://www.royalenfield.com/content/dam/re-platform-images/bullet-trials-350/studio-shots/bullet-trials-350-side-view.PNG",
+                        "title": "First",
+                        
+                        "dimensions":{
+                            "width":830,
+                            "height":600
+                        },
+                        "action": {
+                            "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 37
+                            }
+                        }
+                    },
+                    {
+                        "image": "https://www.royalenfield.com/content/dam/re-platform-images/bullet-trials-350/studio-shots/bullet-trials-350-rear-view.PNG",
+                        "title": "third",
+                        "dimensions":{
+                            "width":830,
+                            "height":600
+                        },
+                        "action": {
+                            "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 35
+                            }
+                        }
+                    },
+                    {
+                        "image": "https://www.royalenfield.com/content/dam/re-platform-images/bullet-trials-350/studio-shots/bullet-trials-350-rear-view.PNG",
+                        "title": "third",
+                        "dimensions":{
+                            "width":830,
+                            "height":600
+                        },
+                        "action": {
+                            "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 35
+                            }
+                        }
+                    },
+                    {
+                        "image": "https://www.royalenfield.com/content/dam/re-platform-images/bullet-trials-350/studio-shots/bullet-trials-350-front-view.PNG",
+                        "title": "third",
+                        "dimensions":{
+                            "width":830,
+                            "height":600
+                        },
+                        "action": {
+                            "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 35
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "text",
+                "text": " Bullet Trials Works Replica 350 ",
+                "style":{
+                    "fontFamily": "Lato-Regular",
+                    "color": "black",
+                    "fontWeight": "bold",
+                    "fontSize":20,
+                    "textAlign": "center",
+                    "marginLeft": 10,
+                    "marginVertical": 10
+                },
+                "action":{
+                    "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 34
+                            }
+                }
+            },
+            {
+                "type": "text",
+                "text": "₹ 1.62 lakh Ex-showroom Price",
+                "style":{
+                    "fontFamily": "Lato-Regular",
+                    "fontWeight": "bold",
+                    "fontSize":15,
+                    "textAlign": "center",
+                    "color":"#99999c",
+                    "marginLeft": 10,
+                    "marginTop": 10,
+                    "marginBottom": 40
+                },
+                "action":{
+                    "type": "OPEN_PRODUCT",
+                            "params": {
+                                "id": 34
+                            }
+                }
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-around",
+                    "alignItems": "center"
+                },
+                "data": [
+                    {
+                        "type": "text",
+                        "text": "ENGINE",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color": "black",
+                            "fontWeight": "bold",
+                            "fontSize":14,
+                            "marginLeft": 10,
+                            "marginTop":10,
+                            "marginBottom": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "marginBottom": 20
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "Single cylinder, 4 stroke, twinspark, air-cooled",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":8,
+                            "marginLeft": 10,
+                            "marginTop":1
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "CAPACITY",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "346cc",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "MAX POWER",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "19.8 bhp @ 5250 rpm",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginBottom": 15
+    
+    
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "MAX TORQUE",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "28 Nm @ 4000 rpm",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+           
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginBottom": 15
+    
+    
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "GEARBOX",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "5 speed constant mesh",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginBottom": 15
+    
+    
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "EXHAUST",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "Single Upswept Exhaust",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-around",
+                    "alignItems": "center"
+                },
+                "data": [
+                    {
+                        "type": "text",
+                        "text": "CHASSIS",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color": "black",
+                            "fontWeight": "bold",
+                            "fontSize":14,
+                            "marginLeft": 10,
+                            "marginTop":10,
+                            "marginBottom": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "marginBottom": 20
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "Single downtube, using engine as stressed member",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":8,
+                            "marginLeft": 10,
+                            "marginTop":1
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "FRONT TYRES",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "90 / 90 - 19” - 52 P",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "REAR TYRES",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "110 / 80 - 18” - 62 P",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "FRONT SUSPENSION",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "Telescopic, 35 mm forks, 130 mm travel",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "REAR SUSPENSION",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "Twin gas charged shock absorbers with \n5-step adjustable preload, 80mm travel",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "FRONT BRAKES",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "280 mm Disc, 2-piston caliper",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "REAR BRAKES",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                        
+                    },
+                    {
+                        "type": "text",
+                        "text": "240 mm Disc, single piston & foating caliper",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                       
+                    }
+                    
+                ]
+            },
+           
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-around",
+                    "alignItems": "center"
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "DIMENSIONS AND WEIGHTS",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color": "black",
+                            "fontWeight": "bold",
+                            "fontSize":14,
+                            "marginLeft": 10,
+                            "marginTop":10,
+                            "marginBottom": 5
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "marginBottom": 20
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "187 kg (with 90% Fuel & Oil)",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":8,
+                            "marginLeft": 10,
+                            "marginTop":1
+                        },
+                        "action": {
+                            "type": "banner",
+                            "params": {
+                                "id": 1
+                            }
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "GROUND CLEARANCE",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "135 mm",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "KERB WEIGHT",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "187 kg (with 90% Fuel & Oil)",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            },
+            {
+                "type": "row",
+                "style": {
+                    "justifyContent": "space-between",
+                    "marginTop":20,
+                    "marginBottom": 15
+                },
+                "data": [
+                    
+                    {
+                        "type": "text",
+                        "text": "TANK CAPACITY",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginLeft": 30,
+                            "marginVertical": 5
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "text": "13.5 Ltr",
+                        "style": {
+                            "fontFamily": "Lato-Regular",
+                            "color":"#99999c",
+                            "fontSize":12,
+                            "marginRight": 30,
+                            "marginVertical": 5
+                        }
+                    }
+                    
+                ]
+            }
+            
+    ]
+}
